@@ -11,4 +11,35 @@
 *{
     margin: 0!important;
     padding: 0!important;
+    box-sizing: border-box;
+}
+/* ------------------- Calculatrice ---------------------------*/
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( #091921, #102e3d);
+}
+.calculator{
+    background: cyan;
+    display: flex;
+    flex-direction: column;
+}
+.screen{
+    text-align: right;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background: darkviolet;
+    outline: 4px ridge rgba(170, 50, 220, .6);
+    
+}
+.touch{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(5, 50px);
 }
