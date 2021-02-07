@@ -1,2 +1,2 @@
-const touch = [...document.querySelectorAll('.button')]
+const touch = document.querySelectorAll('.button')
 console.log('touch')
